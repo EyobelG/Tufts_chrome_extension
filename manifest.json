@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "Tufts Jumbos Theme",
+  "short_name": "Tufts Jumbos",
+  "description": "A Tufts University browser theme inspired by the Stanford Cardinal theme, built from official Tufts brand colors and the Jumbo elephant mark.",
+  "version": "1.0.0",
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "theme": {
+    "images": {
+      "theme_frame": "images/theme_frame.png",
+      "theme_frame_inactive": "images/theme_frame_inactive.png",
+      "theme_toolbar": "images/theme_toolbar.png",
+      "theme_ntp_background": "images/ntp_background.png"
+    },
+    "colors": {
+      "frame": [62, 142, 222],
+      "frame_inactive": [0, 46, 109],
+      "toolbar": [242, 237, 231],
+      "toolbar_text": [0, 46, 109],
+      "tab_text": [0, 46, 109],
+      "tab_background_text": [255, 255, 255],
+      "ntp_background": [0, 46, 109],
+      "ntp_text": [242, 237, 231],
+      "ntp_link": [255, 199, 44],
+      "button_background": [99, 73, 58],
+      "bookmark_text": [0, 46, 109]
+    },
+    "tints": {
+      "buttons": [0.33, 0.5, 0.47]
+    },
+    "properties": {
+      "ntp_background_alignment": "center"
+    }
+  }
+}
