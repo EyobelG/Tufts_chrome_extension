@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Tufts Jumbos New Tab</title>
+<style>
+  :root {
+    --jumbo-blue: #002E6D;
+    --tufts-blue: #3E8EDE;
+    --tufts-brown: #63493A;
+    --candle-white: #F2EDE7;
+    --beacon-yellow: #FFC72C;
+  }
+  html, body {
+    height: 100%; margin: 0;
+    background: var(--jumbo-blue) url("images/ntp_background.png") center/cover no-repeat;
+    font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  }
+  .wrap {
+    min-height: 100%;
+    display: flex; flex-direction: column; align-items: center;
+    padding-top: 9vh; box-sizing: border-box;
+  }
+  .wordmark { height: 64px; margin-bottom: 36px; filter: drop-shadow(0 2px 6px rgba(0,0,0,.35)); }
+  .shortcuts {
+    display: grid;
+    grid-template-columns: repeat(4, 112px);
+    gap: 22px;
+    max-width: 620px;
+  }
+  .shortcut {
+    display: flex; flex-direction: column; align-items: center;
+    text-decoration: none; color: var(--candle-white);
+  }
+  .tile {
+    width: 64px; height: 64px; border-radius: 16px;
+    background: rgba(242,237,231,0.12);
+    border: 1px solid rgba(242,237,231,0.25);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 24px; font-weight: 700; color: var(--candle-white);
+    transition: background .15s, transform .15s;
+  }
+  .shortcut:hover .tile { background: var(--tufts-blue); transform: translateY(-2px); }
+  .label { margin-top: 8px; font-size: 12px; text-align: center; opacity: .9; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <img class="wordmark" src="images/tufts_logo_transparent.png" alt="Tufts University">
+    <div class="shortcuts">
+      <a class="shortcut" href="https://go.tufts.edu/sis" title="Student Information System">
+        <div class="tile">SIS</div><div class="label">SIS</div>
+      </a>
+      <a class="shortcut" href="https://canvas.tufts.edu" title="Canvas">
+        <div class="tile">C</div><div class="label">Canvas</div>
+      </a>
+      <a class="shortcut" href="https://gotuftsjumbos.com" title="Jumbos Athletics">
+        <div class="tile">J</div><div class="label">Athletics</div>
+      </a>
+      <a class="shortcut" href="https://access.tufts.edu" title="Access Tufts (SSO portal)">
+        <div class="tile">A</div><div class="label">Access Tufts</div>
+      </a>
+      <a class="shortcut" href="https://www.tufts.edu" title="Tufts.edu">
+        <div class="tile">T</div><div class="label">Tufts.edu</div>
+      </a>
+      <a class="shortcut" href="https://now.tufts.edu" title="Tufts Now">
+        <div class="tile">N</div><div class="label">Tufts Now</div>
+      </a>
+      <a class="shortcut" href="https://dining.tufts.edu" title="Dining">
+        <div class="tile">D</div><div class="label">Dining</div>
+      </a>
+      <a class="shortcut" href="https://www.library.tufts.edu" title="Library">
+        <div class="tile">L</div><div class="label">Library</div>
+      </a>
+    </div>
+  </div>
+</body>
+</html>

@@ -9,6 +9,9 @@
     "48": "images/icon48.png",
     "128": "images/icon128.png"
   },
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
   "theme": {
     "images": {
       "theme_frame": "images/theme_frame.png",
