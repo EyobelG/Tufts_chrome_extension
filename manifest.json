@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Tufts Jumbos Theme",
   "short_name": "Tufts Jumbos",
-  "description": "A Tufts University browser theme inspired by the Stanford Cardinal theme, built from official Tufts brand colors and the Jumbo elephant mark.",
+  "description": "Tufts University theme: Jumbo Blue colors, elephant mascot, and quick links to SIS, Canvas, and Athletics.",
   "version": "1.0.0",
   "icons": {
     "16": "images/icon16.png",
